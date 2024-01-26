@@ -10,7 +10,7 @@ $ unzip asn-recon
 ### Usage:
 To get all the available ASNs related to the org name provided (be sure to remove the unwanted org ASN)
 ```bash
-echo "org name" | ./asn-grabber'
+echo "org name" | ./asn-grabber | anew asn-list.txt
 ```
 
 To get the non-shared ASN only
